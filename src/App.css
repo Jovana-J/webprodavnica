@@ -80,7 +80,7 @@ nav:hover {
   justify-content: center;
   font-size: smaller;
   padding-right: 9px;
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   cursor: pointer;
   text-decoration: none;
 }
@@ -97,7 +97,7 @@ nav:hover {
   margin-right: 2vw;
 }
 .searchInput::placeholder {
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
 }
 .searchInput:focus-within::placeholder {
   color: rgb(73, 73, 73);
@@ -149,7 +149,7 @@ nav:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   cursor: pointer;
   border: 1px solid rgb(235, 235, 235);
   text-align: center;
@@ -212,7 +212,8 @@ nav:hover {
 .one {
   width: 100%;
   height: 30px;
-  color: rgb(199, 199, 199);
+  
+color: rgb(179, 179, 179);
   letter-spacing: 0.2px;
   overflow: hidden;
 }
@@ -232,7 +233,8 @@ nav:hover {
   padding-left: 10px;
   border: 1px solid transparent;
   text-decoration: none;
-  color: rgb(199, 199, 199);
+  
+color: rgb(179, 179, 179);
 }
 .opt:first-child {
   padding-left: 0px;
@@ -335,7 +337,8 @@ nav:hover {
   font-size: x-large;
   font-weight: 100;
   transition-duration: 600ms;
-  color: rgb(199, 199, 199);
+  
+color: rgb(179, 179, 179);
 
 }.description{
   font-size: medium;
@@ -455,7 +458,8 @@ input[type='radio'] {
   align-items: flex-end;
   justify-content: center;
   color: rgb(73, 73, 73);
-  color: rgb(199, 199, 199);
+  
+color: rgb(179, 179, 179);
 }
 .price {
   grid-column-start: 1;
@@ -467,7 +471,7 @@ input[type='radio'] {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   cursor: pointer;
   text-decoration: none;
   transition-duration: 600ms;
@@ -486,7 +490,7 @@ input[type='radio'] {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   transition-duration: 600ms;
 }
 .currency:hover {
@@ -503,7 +507,7 @@ input[type='radio'] {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   cursor: pointer;
   transition-duration: 600ms;
 }
@@ -537,15 +541,17 @@ input[type='radio'] {
   align-items: flex-start;
   justify-content: center;
   font-size: small;
-  color: rgb(219, 219, 219);
-  color: rgb(199, 199, 199);
+  color: rgb(179, 179, 179);
+  
+color: rgb(179, 179, 179);
 }
 #subscription {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   font-size: medium;
-  color: rgb(199, 199, 199);
+  
+color: rgb(179, 179, 179);
   font-weight: 400;
   color: rgb(73, 73, 73);
 }
@@ -592,7 +598,8 @@ input[type='radio'] {
   margin: 3px;
   cursor: pointer;
   text-decoration: none;
-  color: rgb(199, 199, 199);
+  
+color: rgb(179, 179, 179);
 }
 .footerInfo:hover {
   color: rgb(73, 73, 73);
@@ -707,7 +714,7 @@ form {
 }
 .username::placeholder,
 .password::placeholder {
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   transition-duration: 600ms;
 }
 .username:focus-within::placeholder,
@@ -727,7 +734,7 @@ form {
   background-color: transparent;
   border: 1px solid transparent;
   font-size: x-small;
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
 }
 .formLinks1,
 .formLinks2 {
@@ -808,7 +815,8 @@ form {
 .brand,
 .infoArray {
   font-size: small;
-  color: rgb(199, 199, 199);
+  
+color: rgb(179, 179, 179);
   margin-bottom: 0.4%;
 }
 .infoArray {
@@ -875,7 +883,8 @@ form {
 }
 .propElement {
   border-right: 1px solid rgb(235, 235, 235);
-  color: rgb(199, 199, 199);
+  
+color: rgb(179, 179, 179);
 }
 .reviews_Headlime {
   width: 100%;
@@ -903,7 +912,8 @@ form {
   height: 100%;
   border-top: 1px solid rgb(235, 235, 235);
   border-bottom: 1px solid rgb(235, 235, 235);
-  color: rgb(199, 199, 199);
+  
+color: rgb(179, 179, 179);
 }
 .reviews_Title {
   width: 50%;
@@ -979,7 +989,8 @@ form {
   justify-content: flex-start;
   align-items: center;
   font-size: medium;
-  color: rgb(199, 199, 199);
+  
+color: rgb(179, 179, 179);
   padding-left: 3%;
 }
 .iconsComment{
@@ -1094,7 +1105,7 @@ span{
   grid-row-end: 5;
   display: flex;
   justify-content: center;
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   padding-top: 1%;
   letter-spacing: 0.2px;
   transition-duration: 600ms;
@@ -1135,7 +1146,7 @@ span{
   align-items: center;
   justify-content: center;
   letter-spacing: initial;
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   cursor: pointer;
   transition-duration: 600ms;
 }
@@ -1149,7 +1160,7 @@ span{
   align-items: center;
   justify-content: center;
   letter-spacing: initial;
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   cursor: pointer;
   transition-duration: 600ms;
 }
@@ -1185,7 +1196,7 @@ span{
   color: rgb(73, 73, 73);
 }
 .backarrow:hover {
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   border-bottom: 1px solid rgb(153, 153, 153);
 }
 .purchase {
@@ -1260,7 +1271,7 @@ span{
 }
 .buy:hover {
   letter-spacing: 2px;
-  color: rgb(219, 219, 219);
+  color: rgb(179, 179, 179);
   border-bottom: 1px solid rgb(153, 153, 153);
   cursor: pointer;
   background-color: rgb(247, 247, 247);
@@ -1299,4 +1310,8 @@ span{
   box-shadow: 0px 0px 15px 3px rgb(238, 238, 238);
   border: 1px solid rgb(234, 234, 234);
   transform: translateY(-2px);
+}
+
+.footerInfo, .username::placeholder, .password::placeholder, .formLinks, .formLinks div{
+  color: rgb(179, 179, 179);
 }

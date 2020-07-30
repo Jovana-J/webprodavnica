@@ -16,7 +16,7 @@ export default function App() {
     <GlobalState>
       <div className="App">
         <Router>
-          <Navigation />{/* NavLink mora biti u Router komponenti */}
+          <Navigation />
           <Switch>
             <Route path="/" exact component={Shop}></Route>
             <Route path="/LogIn" component={LogIn}></Route>

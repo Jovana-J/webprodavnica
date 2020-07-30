@@ -82,7 +82,6 @@ class ItemDetails extends React.Component {
     }
     render() {
 
-        //console.log(this.context)
         return (
             <div>
                 <div className="sortItemDetails">
@@ -139,17 +138,14 @@ class ItemDetails extends React.Component {
                                     <div className="iconsComment">
                                         <span className="material-icons" style={{ width: `${100 / 6}%` }}>
                                             thumb_up_alt
-                                            {/* {each.likes} */}
                                         </span>
                                         <div className="Likes" style={{ width: `${100 / 6}%` }}>{each.likes}</div>
                                         <span className="material-icons" style={{ width: `${100 / 6}%` }}>
                                             thumb_down_alt
-                                            {/* {each.likes} */}
                                         </span>
                                         <div className="Dislikes" style={{ width: `${100 / 6}%` }}>{each.dislikes}</div>
                                         <span className="material-icons" style={{ width: `${100 / 6}%` }}>
                                             star
-                                            {/* {each.likes} */}
                                         </span>
                                         <div className="Stars" style={{ width: `${100 / 6}%` }}>
                                             {each.stars.reduce((curr, accu) => {

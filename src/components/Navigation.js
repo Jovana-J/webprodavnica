@@ -9,10 +9,9 @@ class Navigation extends React.Component {
         this.handleClick = this.handleClick.bind(this)
         this.handleSearch = this.handleSearch.bind(this)
     }
-    static contextType = GlobalContext;//zbog static contextType - a, komponenta je class;
+    static contextType = GlobalContext;
 
     componentDidMount() {
-        //console.log(document.location.pathname)
         if (document.location.pathname === '/') {
             document.getElementsByClassName("categoriesWrap")[0].style.display = 'flex';
             document.getElementsByClassName("categoriesWrap")[0].style.visibility = 'visible';

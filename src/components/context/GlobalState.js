@@ -6,7 +6,7 @@ class GlobalState extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            products: this.productData(),//pozvata funkcija, deklaracija property vrednosti;
+            products: this.productData(),
             cart: [],
             total: 0,
         };
@@ -83,7 +83,6 @@ class GlobalState extends React.Component {
             let updateArticle = { ...updateCart[updateIndex] };
             updateArticle.quantity_++;
             updateCart[updateIndex] = updateArticle;
-            //var price = data[product.id - 1].cena;
             var price = data[product.id].price_;
             updateCart[updateIndex].price_ = Math.round(updateCart[updateIndex].quantity_ * price);
         }
@@ -101,7 +100,6 @@ class GlobalState extends React.Component {
         var updateArticle = { ...updateCart[updateIndex] };
         updateArticle.quantity_--;
         updateCart[updateIndex] = updateArticle;
-        //var price = data[product.id - 1].cena;
         var price = data[product.id].price_;
         updateCart[updateIndex].price_ = Math.round(updateCart[updateIndex].quantity_ * price);
         if (updateArticle.quantity_ === 0) {
@@ -111,7 +109,6 @@ class GlobalState extends React.Component {
             cart: updateCart,
         });
         this.setState({
-            //total: this.state.total - data[product.id - 1].cena,
             total: this.state.total - data[product.id].price_,
         });
 

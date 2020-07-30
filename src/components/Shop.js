@@ -10,11 +10,9 @@ export function Item({ specs }) {
                     <div className="img" style={{ backgroundImage: `url(./images/${specs.brand + specs.title_.toString().split(' ').join('')}/${[0]}.png)` }}></div>
                     <div className="title">{specs.title_}</div>
                     <div className="titleabove">{specs.brand}</div>
-                    {/* <div className="price">More info</div> */}
                     <NavLink to="/ItemDetails" className="price" onClick={() => context.itempage(specs)}>More info</NavLink>
                     <div className="currency">{specs.price_}</div>
                     <div className="add" onClick={() => context.add(specs)}>ADD</div>
-                    {/* {console.log(context.add)} */}
                 </div>
             )}
         </GlobalContext.Consumer>
